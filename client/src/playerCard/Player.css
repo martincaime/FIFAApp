@@ -1,0 +1,32 @@
+.playerCard {
+  background-color: blue;
+  width: 12.5rem;
+  height: 17.5rem;
+  border-radius: 0.5rem;
+  color: white;
+  border: 2px solid white;
+  text-align: center;
+  margin: 2rem;
+  overflow: hidden;
+  position: relative;
+}
+
+.playerImage {
+  width: 100%;
+  object-fit: cover;
+  object-position: center center;
+}
+
+.playerName{
+  color: white;
+  margin: 0.5rem;
+}
+
+.playerPosition{
+  color: white;
+}
+
+.playerNameLink{
+  text-decoration: none;
+}
+

@@ -1,0 +1,34 @@
+.playerDetail {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border: 2px solid white;
+  border-radius: 0.5rem;
+  margin: auto;
+  margin-top: 5rem;
+  width: 50rem;
+  height: 100%;
+}
+
+.detailPlayerImage {
+  height: 15rem;
+  border-radius: 0.5rem;
+}
+
+.detailInfo{
+  margin: 1rem;
+}
+
+.returnLink {
+  cursor: pointer;
+  outline: none;
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+  margin: 0.5rem;
+  height: 2.5rem;
+  width: 5rem;
+  border-radius: 0.25rem;
+}
